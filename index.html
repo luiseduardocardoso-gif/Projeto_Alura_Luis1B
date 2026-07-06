@@ -20,11 +20,14 @@ color: #703817;
 max-width: 800px;
 margin: 0 auto;
 padding: 16px;
-
+display: flex;
 }
 img{
     width: 80px;
     height: 80px;
+}
+.artigo-autor {
+    font-weight: bolder;
 }
 </style>
 </head>
@@ -36,10 +39,12 @@ img{
     </header>
 <main>
     <img src="imagem-blog.png" alt="logotipo conceitual de gastronomia, um prato de macarrao instantaneo.">
- <h2>Meu primeiro post</h2> 
-<p>Por: Luis Eduardo Cardoso</p>
-<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de culinaria e curiosidades da área de gastronomia.</p>   
-</main>
+    <div>
+        <h2>Meu primeiro post</h2> 
+       <p class="artigo-autor">Por: Luis Eduardo Cardoso</p>
+       <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de culinaria e curiosidades da área de gastronomia.</p>   
+       </main>
+    </div>
 
 </body>
 </html>
