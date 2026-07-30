@@ -4,37 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blog</title>
+<link rel="stylesheet" href="style.css">
 </head> 
-<style>
-    header {
-background-color: #703817;
-color: #F8F8E9;
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
-padding: 16px;
-}
-main {
-background-color: #F8F8E9;
-color: #703817;
-max-width: 800px;
-margin: 0 auto;
-padding: 16px;
-}
-article {
-    display: flex;
-}
 
-
-img{
-    width: 80px;
-    height: 80px;
-}
-.artigo-autor {
-    font-weight: bolder;
-}
-</style>
-</head>
 <body>
     <header>
         <h1>Meu blog Gastronomico</h1>
@@ -66,29 +38,7 @@ img{
           
        </div>
     </article>
-
-
 </main>
-    <script>
-        const botoes = document.querySelectorAll("button");
-        
-        botoes.forEach(function (botao) {
-            let curtiu = false;
-            botao.addEventListener("click", botaoClicado);
-            function botaoClicado(){
-                console.log("fui clicado");
-                let texto = botao.querySelector("span");
-                if (curtiu === false){
-                    texto.textContent++;
-                    curtiu = true;
-                } else{
-                    texto.textContent--;
-                    curtiu = false;
-                }
-            }      
-        })
-
-
-    </script>
-
+<script src="script.js"></script>   
+</body>
     </html>

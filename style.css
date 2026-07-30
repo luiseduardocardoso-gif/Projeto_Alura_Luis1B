@@ -1,0 +1,27 @@
+ header {
+background-color: #703817;
+color: #F8F8E9;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+}
+main {
+background-color: #F8F8E9;
+color: #703817;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+}
+article {
+    display: flex;
+}
+
+
+img{
+    width: 80px;
+    height: 80px;
+}
+.artigo-autor {
+    font-weight: bolder;
+}
